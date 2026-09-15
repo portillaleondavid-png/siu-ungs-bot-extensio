@@ -1,12 +1,12 @@
-# 🎓 SIU Guaraní Notifier - UNGS
+# SIU Guaraní Notifier - UNGS
 
 Extensión para navegador (Chrome / Edge) y Bot de Telegram que automatiza las consultas de cursada, aulas y notificaciones del SIU Guaraní de la Universidad Nacional de General Sarmiento.
 
 ---
 
-## 🚀 Guía de Instalación Rápida
+##Guía de Instalación Rápida
 
-### Paso 1: Crear tu Bot de Telegram (1 minuto)
+### Paso 1: Crear tu Bot de Telegram
 
 Para recibir tus datos y alertas en tu propio celular, necesitás un Bot personal de Telegram:
 
@@ -18,7 +18,7 @@ Para recibir tus datos y alertas en tu propio celular, necesitás un Bot persona
 
 ---
 
-### Paso 2: Obtener tu Chat ID (30 segundos)
+### Paso 2: Obtener tu Chat ID 
 
 1. En Telegram, buscá el usuario **`@userinfobot`**.
 2. Escribile cualquier mensaje (ejemplo: `hola`).
@@ -41,11 +41,11 @@ Para recibir tus datos y alertas en tu propio celular, necesitás un Bot persona
 
 1. En la barra superior de tu navegador, hacé clic en el ícono de la extensión **SIU Guaraní Notifier**.
 2. Pegá tu **Bot Token** y tu **Chat ID**.
-3. Presioná **💾 Guardar Configuración**.
+3. Presioná ** Guardar Configuración**.
 
 ---
 
-## 📱 Comandos Disponibles en Telegram
+## Comandos Disponibles en Telegram
 
 Una vez configurado, abrí la página del SIU Guaraní UNGS en el navegador. Podrás enviarle los siguientes comandos a tu bot desde el celular:
 
