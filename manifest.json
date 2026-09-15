@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "SIU Guaraní Notifier - UNGS",
+  "version": "1.3",
+  "description": "Notificador e interacción por Telegram para el SIU Guaraní UNGS.",
+  "permissions": [
+    "alarms",
+    "storage",
+    "notifications",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.telegram.org/*",
+    "https://inscripciones.ungs.edu.ar/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://inscripciones.ungs.edu.ar/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
